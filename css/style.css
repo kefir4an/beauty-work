@@ -1,0 +1,359 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	background: #E5E5E5;
+	margin: 0;
+	padding: 0;
+}
+
+a {text-decoration: none; color: #000;}
+
+li {list-style: none;}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*System
+=======================*/
+
+
+/* Хедер инфо */
+.menu-list {
+	display: flex;
+	justify-content: center;
+}
+
+.menu-list-link {
+	font-size: 14px;
+	flex: block;
+}
+
+.menu-list-item + .menu-list-item {
+	margin-left: 30px;
+}
+/*--------------------------*/
+
+
+/* Хедер шапка */
+.header-top {
+	padding: 20px 0;
+	background: #fff;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+.header-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logotype {
+	display: flex;
+	align-items: center;
+}
+
+.logo-title {
+	margin: 0;
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	letter-spacing: 0.1em;
+	color: #F13C6E;
+}
+
+.search-input {
+	border: none;
+	outline: none;
+	font-size: 14px;
+	line-height: 22px;
+	width: 250px;
+	height: 40px;
+	padding: 3px 0px 3px 45px;
+	background: #EFEFEF;
+	border-radius: 40px;
+	background-image: url(../img/search.svg);
+	background-repeat: no-repeat;
+	background-position: left 15px center;
+}
+
+.phone {
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.button-phone {
+	outline: none;
+	font-size: 14px;
+	line-height: 16px;
+	border: 2px solid #F13C6E;
+	box-sizing: border-box;
+	border-radius: 40px;
+	background: #fff;
+	padding: 12px 25px;
+}
+/*--------------------------*/
+
+
+/* Главное меню в шапке */
+.header-top-menu {
+	background: #fff;
+	padding: 20px 0;
+}
+
+.menu-top {
+	display: flex;
+	justify-content: center;
+}
+
+.menu-top-list {
+	display: flex;
+}
+
+.menu-top-item + .menu-top-item {
+	margin-left: 40px;
+}
+
+.menu-top-link {
+	display: block;
+	font-size: 16px;
+	line-height: 19px;
+}
+/*--------------------------*/
+
+
+/* Слайдер */
+.slider {
+	display: inline-block;
+	width: 100%;
+	height: 600px;
+	background: url('../img/slide.png') center no-repeat;
+	background-size: cover;
+}
+
+.slider-item {
+	margin: 190px 0;
+}
+
+.slider-title {
+	margin: 0;
+	color: #fff;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+}
+
+.slider-text {
+	margin: 50px 0;
+	width: 308px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.button-slider {
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	line-height: 16px;
+	background: #F13C6E;
+	border-radius: 40px;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	padding: 10px 50px;
+}
+
+/*--------------------------*/
+
+
+/* Специальные предложения */
+.special {
+	margin: 100px 0;
+}
+
+.special-title {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 40px;
+}
+
+.special-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.special-card {
+	text-align: center;
+	margin-right: 30px;
+	width: 255px;
+	height: 363px;
+	background: #fff;
+	padding: 25px;
+}
+
+.special-text {
+	margin: 20px 0;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+}
+
+.special-cent {
+	margin: 20px 0;
+	display: block;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+	letter-spacing: 0.05em;
+}
+
+.special-button {
+	border: none;
+	outline: none;
+	color: #fff;
+	padding: 10px 40px;
+	background: #F13C6E;
+	border-radius: 30px;
+}
+
+/*--------------------------*/
+
+/* Подписка и каталог магазина */
+.subs {
+	display: flex;
+	color: #fff;
+	margin-bottom: 100px;
+}
+
+.subs-email {
+	padding: 25px 40px;
+	margin-right: 30px;
+	width: 520px;
+	background: #F13C6E url('../img/subs.png') no-repeat;
+	background-position: right 40px center;
+}
+
+.subs-title {
+	margin: 0;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.subs-text {
+	padding: 10px 0;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	display: block;
+}
+
+.subs-input{
+	border: none;
+	outline: none;
+	width: 200px;
+	height: 35px;
+	padding: 2px 0px 2px 25px;
+	font-size: 14px;
+	line-height: 22px;
+	border-radius: 40px;
+}
+
+.subs-shop {
+	padding: 25px 40px;
+	margin-right: 30px;
+	width: 520px;
+	background: #F13C6E url('../img/shop.png') no-repeat;
+	background-position: right 40px center;
+}
+
+.shop-title {
+	margin: 0;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.shop-text {
+	padding: 10px 0;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	display: block;
+}
+
+/*--------------------------*/
+
+
+/* Футер блок */
+.footer-navigation {
+	background: #fff;
+	padding: 60px 0;
+}
+
+.ft-navigation {
+	display: flex;
+	justify-content: space-between;
+}
+
+.foot-title {
+	margin: 0;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140.62%;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+.ft-navigation-card {
+	width: 255px;
+	height: 253px;
+}
+
+.foot-item {
+	margin-top: 25px;
+	padding: 0;
+}
+
+.foot-list {
+	margin-top: 5px;
+	font-size: 12px;
+	line-height: 28px;
+}
+
+.foot-list a {
+	color: #828282;
+}
+
+.footer {
+	padding: 25px 0;
+	border-top: 1px solid #EFEFEF;
+	background: #fff;
+}
+
+.footer-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.social-link {
+	display: inline-block;
+}
+
+.social-link + .social-link {
+	margin-left: 20px;
+}
+
+.footer-info {
+	margin: 25px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 12px;
+	line-height: 14px;
+	color: #828282;
+}
